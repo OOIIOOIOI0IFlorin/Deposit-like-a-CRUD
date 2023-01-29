@@ -2,9 +2,17 @@
 for details on configuring this project to bundle and minify static web assets. */
 
 a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
+
+    .navbar-fixed-top.scrolled
+
+{
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+}
+
+/* white-space: normal; */
+  /* text-align: center; */
+  /* word-break: break-all; */
 }
 
 /* Provide sufficient contrast against white background */
@@ -59,8 +67,9 @@ html {
 }
 
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: url("https://i.stack.imgur.com/jGlzr.png");
 }
 .footer {
   position: absolute;
